@@ -7,52 +7,7 @@
 
 #Download XAMPP ( https://www.apachefriends.org/index.html )
 
-#Create a database locally named ventiontest ( below are some mysql scripts to make it easier )
-
-
-#CREATE DATABASE `ventiontest` ;
-
-
-#CREATE TABLE `flowers` (
-#  `id` int(11) NOT NULL AUTO_INCREMENT,
-#  `name` varchar(45) DEFAULT NULL,
-#  `image` varchar(45) DEFAULT NULL,
-#  `price` double DEFAULT NULL,
-#  `stars` tinyint(5) DEFAULT NULL,
-#  PRIMARY KEY (`id`)
-#) ENGINE=InnoDB AUTO_INCREMENT=0 ;
-
-
-#CREATE TABLE `invoice` (
-#  `id` int(11) NOT NULL AUTO_INCREMENT,
-#  `date` date DEFAULT NULL,
-#  `amount` double DEFAULT NULL,
-#  PRIMARY KEY (`id`)
-#) ENGINE=InnoDB AUTO_INCREMENT=0 ;
-
-
-#INSERT INTO `ventiontest`.`flowers`
-#(
-#`name`,
-#`image`,
-#`price`,
-#`stars`)
-#VALUES
-#("Blue Flower",
-#"/assets/blue-flower.png",
-#80.00,
-#4),
-
-#("Orange Flower",
-#"/assets/orange-flower.png",
-#17.60,
-#3),
-
-#("Pink Flower",
-#"/assets/pink-flower.png",
-#40.00,
-#5);
-
+#Create a database locally named ventiontest ( The scripts will be emailed to you )
 
 #Download composer https://getcomposer.org/download/
 
